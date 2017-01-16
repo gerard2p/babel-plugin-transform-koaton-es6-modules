@@ -1,0 +1,38 @@
+{
+  "name": "babel-plugin-transform-koaton-es6-modules",
+  "version": "0.0.0-semantic-release",
+  "description": "",
+  "repository": "https://bitbucket.org/gerardopp/babel-plugin-transform-koaton-es6-modules",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "commit": "git add -A & git-cz",
+    "convert": "babel src/index.esnext --out-file lib/index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "dependencies": {
+    "babel-types": "^6.18.0",
+    "babel-runtime": "^6.0.0",
+    "babel-template": "^6.16.0",
+    "babel-plugin-transform-strict-mode": "^6.18.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "commitizen": "^2.9.5",
+    "cz-conventional-changelog": "^1.2.0",
+    "semantic-release": "^6.3.2",
+    "babel-helper-plugin-test-runner": "^6.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "files": [
+    "README.md",
+    "lib/index.js"
+  ]
+}
