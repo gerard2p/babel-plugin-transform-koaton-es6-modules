@@ -2,7 +2,7 @@
   "name": "babel-plugin-transform-koaton-es6-modules",
   "version": "0.0.0-semantic-release",
   "description": "",
-  "repository": "https://bitbucket.org/gerardopp/babel-plugin-transform-koaton-es6-modules",
+  "repository": "https://github.com/gerard2p/babel-plugin-transform-koaton-es6-modules",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
